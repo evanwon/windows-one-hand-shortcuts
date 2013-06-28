@@ -1,7 +1,5 @@
-windows-one-hand-shortcuts
+One-handed window management keyboard shortcuts for Windows 7+
 ==========================
-
-*Enables one-handed window management in Windows 7+.*
 
 Windows 7 (and newer) offers some [great keyboard shortcuts](http://windows.microsoft.com/en-us/windows7/keyboard-shortcuts) for window management, which are especially useful in a multi-display desktop configuration.
 
@@ -38,6 +36,8 @@ When using these shortcuts, I use the following hand position: Left pinky finger
 ### How do I automatically run this script when Windows starts?
 
 To start this script automatically with your computer, simply add it to the `Startup` folder in the Windows Start menu.
+
+To locate this folder, open the Run prompts (shortcut `Win+R`) and enter `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\`.
 
 ### Can I disable the tray icon?
 
