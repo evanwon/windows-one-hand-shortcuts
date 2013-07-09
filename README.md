@@ -9,9 +9,9 @@ This simple AutoHotKey script remaps some of these two-handed shortcuts to left-
 
 ## Current Features
 
-- Remaps **Move active window to next right display** shortcut (`Shift+Win+Right Arrow`) to `Ctrl+Win+C`.
+- Remaps **Move active window to next right display** shortcut (`Shift+Win+Right Arrow`) to `Ctrl+Shift+C`.
 
-- Remaps **Move active window to next left display** shortcut (`Shift+Win+Left Arrow`) to `Ctrl+Win+X`.
+- Remaps **Move active window to next left display** shortcut (`Shift+Win+Left Arrow`) to `Ctrl+Shift+X`.
 
 ## How to install
 
@@ -27,7 +27,15 @@ This simple AutoHotKey script remaps some of these two-handed shortcuts to left-
 
 ## FAQ
 
-### Why were the `Ctrl+Win` keys chosen for the new shortcuts?
+### Can I disable the tray icon?
+
+Yes. Edit the .ahk script and locate the "Hide Tray Icon" section under "OPTIONAL FEATURES". Uncomment the necessary lines to disable the tray icon.
+
+### How do I compile the script as an executable?
+
+Use the "Ahk2Exe" tool which is included with the AutoHotKey installation.
+
+### Why were the `Ctrl+Shift` keys chosen for the new shortcuts?
 
 The hand position required by these keys felt ergonomically natural to me, and because of their placement on the bottom edge of the keyboard, I can find this position easily and without looking. By using `Ctrl+Win` in combination, the risk of shortcut conflicts with other applications is reduced.
 
@@ -38,14 +46,6 @@ When using these shortcuts, I use the following hand position: Left pinky finger
 To start this script automatically with your computer, simply add it to the `Startup` folder in the Windows Start menu.
 
 To locate this folder, open the Run prompts (shortcut `Win+R`) and enter `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\`.
-
-### Can I disable the tray icon?
-
-Yes. Edit the .ahk script and locate the "Hide Tray Icon" section under "OPTIONAL FEATURES". Uncomment the necessary lines to disable the tray icon.
-
-### How do I compile the script as an executable?
-
-Use the "Ahk2Exe" tool which is included with the AutoHotKey installation.
 
 ## License
 
