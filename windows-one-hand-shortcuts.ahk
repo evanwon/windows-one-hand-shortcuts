@@ -18,14 +18,14 @@
 SendMode Input  								; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  					; Ensures a consistent starting directory.
 
-; Remap "Move Window Left" command (normally Shift+Win+Left Arrow) to Ctrl+Win+X
-^#x::
+; Remap "Move Window Left" command (normally Shift+Win+Left Arrow) to Ctrl+Shift+Z
+^+z::
 	Send +#{Left}
 	return
 
 
-; Remap "Move Window Right" command (normally Shift+Win+Right Arrow) to Ctrl+Win+C
-^#c::
+; Remap "Move Window Right" command (normally Shift+Win+Right Arrow) to Ctrl+Shift+X
+^+x::
 	Send +#{Right}
 	return
 	
