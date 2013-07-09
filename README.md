@@ -9,9 +9,9 @@ This simple AutoHotKey script remaps some of these two-handed shortcuts to left-
 
 ## Current Features
 
-- Remaps **Move active window to next right display** shortcut (`Shift+Win+Right Arrow`) to `Ctrl+Shift+C`.
+- Remaps **Move active window to next left display** shortcut (`Shift+Win+Left Arrow`) to `Ctrl+Shift+Z`.
 
-- Remaps **Move active window to next left display** shortcut (`Shift+Win+Left Arrow`) to `Ctrl+Shift+X`.
+- Remaps **Move active window to next right display** shortcut (`Shift+Win+Right Arrow`) to `Ctrl+Shift+X`.
 
 ## How to install
 
@@ -37,9 +37,9 @@ Use the "Ahk2Exe" tool which is included with the AutoHotKey installation.
 
 ### Why were the `Ctrl+Shift` keys chosen for the new shortcuts?
 
-The hand position required by these keys felt ergonomically natural to me, and because of their placement on the bottom edge of the keyboard, I can find this position easily and without looking. By using `Ctrl+Win` in combination, the risk of shortcut conflicts with other applications is reduced.
+The hand position required by these keys felt ergonomically natural to me, and because of their placement on the bottom edge of the keyboard, I can find this position easily and without looking. By using `Ctrl+Shift` in combination, the risk of shortcut conflicts with other applications is reduced.
 
-When using these shortcuts, I use the following hand position: Left pinky finger on `Ctrl`, left ring finger on `Win`, and then use the middle and index fingers to activate specific shortcuts. 
+When using these shortcuts, I use the following hand position: Left pinky finger on `Ctrl`, left ring finger on `Shift`, and then use the middle and index fingers to activate specific shortcuts. 
 
 ### How do I automatically run this script when Windows starts?
 
